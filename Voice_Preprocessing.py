@@ -12,8 +12,7 @@ audio_files = "Data\amicorpus\ES2008a\audio\ES2008a.Mix-Headset.wav"  # replace 
 
 
 # inference on the whole file
-#key='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'
-key2="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"
+
 import torch
 from pyannote.audio import Pipeline
 from pyannote.audio.pipelines.utils.hook import ProgressHook
